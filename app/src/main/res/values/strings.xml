@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">exercicios do lucas</string>
+    <string name="exc1"> Exercicio  1  (Ex) </string>
+    <string name="exc2"> Exercicio  2  (Ex) </string>
+    <string name="exc3"> Exercicio  3  (Ex) </string>
+    <string name="exc4"> Exercicio  4  (Ex) </string>
+    <string name="exc5"> Exercicio  5  (Ex) </string>
+    <string name="exc6"> Exercicio  6  (Ex) </string>
+    <string name="exc7"> Exercicio  7  (Ex) </string>
+    <string name="exc8"> Exercicio  8  (Ex) </string>
+    <string name="exc9"> Exercicio  9  (Ex) </string>
+    <string name="exc10"> Exercicio 10 (Ex) </string>
+    <string name="exc11"> Exercicio 11 (Ex) </string>
+    <string name="exc12"> Exercicio 12 (Ex) </string>
+</resources>
