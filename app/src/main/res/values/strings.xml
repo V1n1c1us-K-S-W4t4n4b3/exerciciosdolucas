@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">exercicios do lucas</string>
     <string name="marcaKZ">KZ</string>
+
+    <!-- nome das Activitys -->
     <string name="exc1"> Exercicio  1  (Ex) </string>
     <string name="exc2"> Exercicio  2  (Ex) </string>
     <string name="exc3"> Exercicio  3  (Ex) </string>
@@ -13,4 +15,23 @@
     <string name="exc10"> Exercicio 10 (Ex) </string>
     <string name="exc11"> Exercicio 11 (Ex) </string>
     <string name="exc12"> Exercicio 12 (Ex) </string>
+
+    <!-- hint do edit text Exc 1 -->
+    <string name="primeiro_numero">Primeiro Numero</string>
+    <string name="segundo_numero">Segundo Numero</string>
+
+    <!-- texto dos textviews Exc 1 -->
+    <string name="somar">Soma</string>
+    <string name="subitrair">Subitração</string>
+    <string name="multiplicar">Multiplicação</string>
+    <string name="dividir">Divisão</string>
+
+    <!-- Texto dos Buttons -->
+    <string name="calcular">Calcular</string>
+    <string name="Back">Valtar</string>
+
+    <!-- texto dos texts exc 2 -->
+    <string name="numeroTabu">Numero da Tabuada</string>
+    <string name="resultTabu">Resultado da Tabuada</string>
+
 </resources>
