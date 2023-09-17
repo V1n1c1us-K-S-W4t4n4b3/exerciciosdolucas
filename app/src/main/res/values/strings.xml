@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">exercicios do lucas</string>
+    <string name="marcaKZ">KZ</string>
     <string name="exc1"> Exercicio  1  (Ex) </string>
     <string name="exc2"> Exercicio  2  (Ex) </string>
     <string name="exc3"> Exercicio  3  (Ex) </string>

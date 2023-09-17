@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".Exercicio4">
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quatro"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="341dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
