@@ -16,23 +16,13 @@ class Exercicio3 : AppCompatActivity() {
             converter()
         }
     }
-
     fun converter() {
 
         val fahrenheit = binding.textFahrenheit
         val celsius = binding.editCelsius
         val celsiusEmNumb = celsius.text.toString().toDouble()
-
         val formula = (celsiusEmNumb * 9 / 5) + 32
-
         fahrenheit.text = formula.toString()
 
-
-
-
-
-
     }
-
-
 }
