@@ -33,5 +33,12 @@
     <!-- texto dos texts exc 2 -->
     <string name="numeroTabu">Numero da Tabuada</string>
     <string name="resultTabu">Resultado da Tabuada</string>
+    
+    <!-- textos do exercicio 3-->
+    <string name="fahrenheit">Resultado em Fahrenheit</string>
+    <string name="celsius">Digite graus Celsius</string>
+    
+    <!--texto resultado -->
+    <string name="resu">Resultado</string>
 
 </resources>

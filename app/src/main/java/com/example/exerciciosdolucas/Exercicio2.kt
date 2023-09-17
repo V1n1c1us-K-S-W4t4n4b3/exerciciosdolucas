@@ -19,10 +19,10 @@ class Exercicio2 : AppCompatActivity() {
 
     fun tabuada() {
 
-        // é onde bou escrever o numero da tabuada
+        // é onde vou escrever o numero da tabuada
         val textTabu = binding.editTabu
 
-        // na vddera pra sair o resultado aqui
+        // na vdd era pra sair o resultado aqui
         val resultado = binding.resultTabu
 
         // converte o string do numero da tabuada em double
@@ -31,32 +31,31 @@ class Exercicio2 : AppCompatActivity() {
         // passa o valor convertido para a variavel v1
         val v1 = valor
 
-        // esse é a variavel q vai guardar o resultado da formula do println
+        // variavel q recebe o valor da formula
         var resultadoFinal = ""
 
         // determina a sequencia de um numero minino ate um numero maximo
         for (i in 1..10) {
 
-            // ela esta recebendo o resultado do valor digitado sendo multiplicado pelo numero da sequencia
+            // val que recebendo o valor digitado sendo multiplicado pelo numero da sequencia
             val product = v1 * i
 
-            // a formula do numero digitado vezes o numero minimo ate o numero maximo dentro de uma variavel
+            // variavel que recebe o valor numero digitado vezes o numero min ate max da sequencia
             val formula = "$v1 * $i = $product"
 
-            // ele imprimi o calculo no logcat
+            // print== imprimir ,ln== linha "imprimi a linha no logcat
             println(formula)
 
-            //a formula multiplicando o numero da tabuada em ate o numero de vezes escolhido em looping e quebrnado a linha para ser armazenado no resultfinal
+            // resultadoFinal recebe em mais de uma vez o valor da formula havendo uma quebra de linha em toda vez q ela for gerado um resultado criando a lista
+            // pois = recebe, + adciona e \n quebra linha logo ele recebe o resultado numa luinha e adciona o outro resultado na outra linha ate acabar o loop
             resultadoFinal += "$formula \n"
-
-
         }
-        // aqui vai mostrar o que o resultado final guardou no text resultado
+        //resultado. text é o textView que recebe o valor de resultado final
         resultado.text = resultadoFinal
     }
 }
 
-
+//termos q poderiam ser facilmente substituidos por receber! Atribuir é o mais correto no mercado
 // para ser armazenado
 // guardou no
 // dentro
