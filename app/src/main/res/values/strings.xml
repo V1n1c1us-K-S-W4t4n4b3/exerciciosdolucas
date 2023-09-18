@@ -41,4 +41,10 @@
     <!--texto resultado -->
     <string name="resu">Resultado</string>
 
+    <!-- textos do exercicio 4 -->
+    <string name="Dolar"> Digite o Valor do Dolar </string>
+    <string name="reais"> Valor em reais: </string>
+
+
+
 </resources>
