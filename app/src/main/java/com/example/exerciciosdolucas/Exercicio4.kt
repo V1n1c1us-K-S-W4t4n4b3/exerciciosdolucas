@@ -21,13 +21,17 @@ class Exercicio4 : AppCompatActivity() {
 
     private fun converter() {
 
-        val editDolar = binding.editDolar
-        val formatDolar: NumberFormat = NumberFormat.getInstance(Locale.FRANCE)
-        val numberDolar: Number = formatDolar.parse(editDolar.text.toString())
-        val dDolar = numberDolar.toDouble()
-        val formula = dDolar * 4.87
-        val reais = binding.textReais
-        reais.text = String.format("%.3f", formula)
+        val editReal = binding.editReal
+        val formatReal: NumberFormat = NumberFormat.getInstance(Locale.FRANCE)
+        val numberDolar: Number = formatReal.parse(editReal.text.toString())
+        val dReal = numberDolar.toDouble()
+        val editCotacao = binding.editCotaO
+        val formatcotacao: NumberFormat = NumberFormat.getInstance(Locale.FRANCE)
+        val numberCotacao: Number = formatcotacao.parse(editCotacao.text.toString())
+        val dcotacao = numberCotacao.toDouble()
+        val formula = dReal / dcotacao
+        val Dolar = binding.textDolar
+        Dolar.text = String.format("%.2f", formula)
 
     }
 }
