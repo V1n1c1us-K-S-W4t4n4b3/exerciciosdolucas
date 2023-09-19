@@ -19,8 +19,9 @@ class Exercicio6 : AppCompatActivity() {
             startActivity(concluir)
         }
 
-        binding.buttonConcluir. setOnClickListener {
-            listaPronta() }
+        binding.buttonConcluir.setOnClickListener {
+            listaPronta()
+        }
     }
 
     private fun listaPronta() {
@@ -32,11 +33,11 @@ class Exercicio6 : AppCompatActivity() {
         val fru5 = binding.editFruta5.text.toString()
 
         val intent = Intent(this, ConclusaoExercicio6::class.java)
-        intent.putExtra("frut1",fru1,)
-        intent.putExtra("frut2",fru2)
-        intent.putExtra("frut3",fru3)
-        intent.putExtra("frut4",fru4)
-        intent.putExtra("frut5",fru5)
+        intent.putExtra("frut1", fru1)
+        intent.putExtra("frut2", fru2)
+        intent.putExtra("frut3", fru3)
+        intent.putExtra("frut4", fru4)
+        intent.putExtra("frut5", fru5)
 
         startActivity(intent)
     }
