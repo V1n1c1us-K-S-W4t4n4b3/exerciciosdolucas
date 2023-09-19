@@ -30,17 +30,18 @@
     <!-- Texto dos Buttons -->
     <string name="calcular">Calcular</string>
     <string name="Back">Valtar</string>
+    <string name="Concluir">Concluir</string>
 
     <!-- texto dos texts exc 2 -->
     <string name="numeroTabu">Numero da Tabuada</string>
     <string name="resultTabu">Resultado da Tabuada</string>
     <string name="titulo2"> Tabuadas </string>
-    
+
     <!-- textos do exercicio 3-->
     <string name="fahrenheit">Resultado em Fahrenheit</string>
     <string name="celsius">Digite graus Celsius</string>
     <string name="titulo3"> Conversor de Graus Celsius em Fahrenheit </string>
-    
+
     <!--texto resultado -->
     <string name="resu">Resultado</string>
 
@@ -62,5 +63,8 @@
     <string name="editfruta3"> Digite o nome da 3º fruta </string>
     <string name="editfruta4"> Digite o nome da 4º fruta </string>
     <string name="editfruta5"> Digite o nome da 5º fruta </string>
+    <string name="listaDeFrut"> Sua Lista de Frutas </string>
+    <string name="nPreenchido"> Espaço não Preenchido ;-; </string>
+
 
 </resources>
