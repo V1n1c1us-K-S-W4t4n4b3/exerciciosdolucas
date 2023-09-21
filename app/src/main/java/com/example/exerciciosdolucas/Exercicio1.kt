@@ -13,7 +13,9 @@ class Exercicio1 : AppCompatActivity() {
         binding = ActivityExercicio1Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonCalcular.setOnClickListener {
+        binding.backButton.setOnClickListener { finish() }
+
+        binding.calculeteButton.setOnClickListener {
             calcularMostrar()
         }
     }

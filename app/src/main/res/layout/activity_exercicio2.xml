@@ -11,9 +11,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:text="@string/exc2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,6 +28,9 @@
         android:layout_marginTop="70dp"
         android:layout_marginEnd="8dp"
         android:text="@string/resultTabu"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTabu" />
@@ -36,35 +41,57 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:hint="@string/numeroTabu"
+        android:hint="@string/numbTabu"
         android:inputType="number"
         android:maxLength="6"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <Button
-        android:id="@+id/buttonCalcular"
+        android:id="@+id/calculeteButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:textColor="#FFFFFF"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/butonExcs"
         android:text="@string/calcular"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultTabu" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
-        android:text="@string/titulo2"
+        android:layout_marginEnd="8dp"
+        android:text="@string/title2"
         android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/butonExcs"
+        android:text="@string/Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

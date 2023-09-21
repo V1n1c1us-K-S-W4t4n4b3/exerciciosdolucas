@@ -14,12 +14,14 @@ class Exercicio6 : AppCompatActivity() {
         binding = ActivityExercicio6Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonConcluir.setOnClickListener {
+        binding.concluButton.setOnClickListener {
             val concluir = Intent(this, ConclusaoExercicio6::class.java)
             startActivity(concluir)
-        }
 
-        binding.buttonConcluir.setOnClickListener {
+        }
+        binding.backButton.setOnClickListener { finish() }
+
+        binding.concluButton.setOnClickListener {
             listaPronta()
         }
     }

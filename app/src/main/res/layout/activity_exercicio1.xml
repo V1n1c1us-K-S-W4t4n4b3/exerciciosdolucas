@@ -29,7 +29,7 @@
         android:layout_marginEnd="8dp"
         android:autofillHints=""
         android:fontFamily="sans-serif"
-        android:hint="@string/primeiro_numero"
+        android:hint="@string/primeiro_numb"
         android:inputType="number"
         android:selectAllOnFocus="false"
         android:singleLine="false"
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:autofillHints=""
-        android:hint="@string/segundo_numero"
+        android:hint="@string/segundo_numb"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,15 +94,19 @@
         app:layout_constraintTop_toBottomOf="@+id/textMult" />
 
     <Button
-        android:id="@+id/buttonCalcular"
+        android:id="@+id/calculeteButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginStart="8dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/butonExcs"
         android:gravity="center"
         android:text="@string/calcular"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDiv" />
 
     <TextView
         android:id="@+id/textView3"
@@ -111,10 +115,24 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/titulo1"
-        android:textSize="20sp"
+        android:text="@string/title1"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tituloexc1" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/butonExcs"
+        android:text="@string/Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

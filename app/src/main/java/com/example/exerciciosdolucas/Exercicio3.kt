@@ -12,7 +12,9 @@ class Exercicio3 : AppCompatActivity() {
         binding = ActivityExercicio3Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonCalcular.setOnClickListener {
+        binding.backButton.setOnClickListener { finish() }
+
+        binding.calculeteButton.setOnClickListener {
             converter()
         }
     }

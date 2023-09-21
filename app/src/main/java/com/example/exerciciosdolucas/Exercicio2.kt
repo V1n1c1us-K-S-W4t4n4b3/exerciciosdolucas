@@ -12,7 +12,9 @@ class Exercicio2 : AppCompatActivity() {
         binding = ActivityExercicio2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonCalcular.setOnClickListener {
+        binding.backButton.setOnClickListener { finish() }
+
+        binding.calculeteButton.setOnClickListener {
             tabuada()
         }
     }

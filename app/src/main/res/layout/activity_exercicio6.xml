@@ -28,9 +28,9 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/titulo6"
+        android:text="@string/title6"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,6 +44,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:hint="@string/editfruta2"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editFruta1" />
@@ -56,6 +58,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:hint="@string/editfruta4"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editFruta3" />
@@ -68,6 +72,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:hint="@string/editfruta5"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editFruta4" />
@@ -80,6 +86,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:hint="@string/editfruta3"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editFruta2" />
@@ -92,14 +100,18 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:hint="@string/editfruta1"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <Button
-        android:id="@+id/buttonConcluir"
+        android:id="@+id/concluButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/butonExcs"
+        android:textColor="#FFFFFF"
         android:layout_marginTop="32dp"
         android:text="@string/Concluir"
         android:textAlignment="center"
@@ -107,5 +119,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editFruta5" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/butonExcs"
+        android:layout_marginStart="8dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:text="@string/Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

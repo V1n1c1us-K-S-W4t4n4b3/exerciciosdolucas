@@ -28,10 +28,10 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/titulo7"
+        android:text="@string/title7"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
@@ -59,6 +59,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:text="@string/textInvertido"
+        android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,15 +67,29 @@
         app:layout_constraintTop_toBottomOf="@+id/editQualquerCoisa" />
 
     <Button
-        android:id="@+id/buttonInvert"
+        android:id="@+id/reversButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/butonExcs"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
+        android:textColor="#FFFFFF"
         android:layout_marginEnd="8dp"
         android:text="@string/inverter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInvertido" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/butonExcs"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:text="@string/Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

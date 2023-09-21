@@ -14,7 +14,9 @@ class Exercicio7 : AppCompatActivity() {
         binding = ActivityExercico7Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonInvert.setOnClickListener {
+        binding.backButton.setOnClickListener { finish() }
+
+        binding.reversButton.setOnClickListener {
 
             inverter()
         }

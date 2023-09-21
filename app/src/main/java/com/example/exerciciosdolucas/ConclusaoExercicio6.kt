@@ -13,7 +13,7 @@ class ConclusaoExercicio6 : AppCompatActivity() {
         setContentView(binding.root)
 
         recuperarDados()
-        binding.buttoncack.setOnClickListener { finish() }
+        binding.backButton.setOnClickListener { finish() }
     }
 
     private fun recuperarDados() {

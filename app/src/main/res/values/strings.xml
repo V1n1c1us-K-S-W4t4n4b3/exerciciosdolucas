@@ -2,75 +2,80 @@
     <string name="app_name">exercicios do lucas</string>
     <string name="marcaKZ">KZ</string>
 
-    <!-- nome das Activitys -->
-    <string name="exc1"> Exercicio  1  (Ex) </string>
-    <string name="exc2"> Exercicio  2  (Ex) </string>
-    <string name="exc3"> Exercicio  3  (Ex) </string>
-    <string name="exc4"> Exercicio  4  (Ex) </string>
-    <string name="exc5"> Exercicio  5  (Ex) </string>
-    <string name="exc6"> Exercicio  6  (Ex) </string>
-    <string name="exc7"> Exercicio  7  (Ex) </string>
-    <string name="exc8"> Exercicio  8  (Ex) </string>
-    <string name="exc9"> Exercicio  9  (Ex) </string>
-    <string name="exc10"> Exercicio 10 (Ex) </string>
-    <string name="exc11"> Exercicio 11 (Ex) </string>
-    <string name="exc12"> Exercicio 12 (Ex) </string>
-
-    <!-- hint do edit text Exc 1 -->
-    <string name="primeiro_numero">Primeiro Numero</string>
-    <string name="segundo_numero">Segundo Numero</string>
-
-    <!-- texto dos textviews Exc 1 -->
-    <string name="somar">Soma</string>
-    <string name="subitrair">Subitração</string>
-    <string name="multiplicar">Multiplicação</string>
-    <string name="dividir">Divisão</string>
-    <string name="titulo1"> Calculadora Multipla </string>
+    <!--texto resultado -->
+    <string name="resut">Resultado</string>
 
     <!-- Texto dos Buttons -->
     <string name="calcular">Calcular</string>
     <string name="Back">Valtar</string>
     <string name="Concluir">Concluir</string>
 
-    <!-- texto dos texts exc 2 -->
-    <string name="numeroTabu">Numero da Tabuada</string>
-    <string name="resultTabu">Resultado da Tabuada</string>
-    <string name="titulo2"> Tabuadas </string>
+    <!-- nome das Activitys -->
+    <string name="exc1">Exercicio 1 (Ex)</string>
+    <string name="exc2">Exercicio 2 (Ex)</string>
+    <string name="exc3">Exercicio 3 (Ex)</string>
+    <string name="exc4">Exercicio 4 (Ex)</string>
+    <string name="exc5">Exercicio 5 (Ex)</string>
+    <string name="exc6">Exercicio 6 (Ex)</string>
+    <string name="exc7">Exercicio 7 (Ex)</string>
+    <string name="exc8">Exercicio 8 (Ex)</string>
+    <string name="exc9">Exercicio 9 (Ex)</string>
+    <string name="exc10">Exercicio 10 (Ex)</string>
+    <string name="exc11">Exercicio 11 (Ex)</string>
+    <string name="exc12">Exercicio 12 (Ex)</string>
 
-    <!-- textos do exercicio 3-->
+    <!-- texts of exercc 1 -->
+    <string name="somar">Soma</string>
+    <string name="subitrair">Subitração</string>
+    <string name="multiplicar">Multiplicação</string>
+    <string name="dividir">Divisão</string>
+    <string name="title1">Calculadora Multipla</string>
+    <string name="primeiro_numb">Primeiro Numero</string>
+    <string name="segundo_numb">Segundo Numero</string>
+
+    <!-- texts of exerc 2 -->
+    <string name="numbTabu">Numero da Tabuada</string>
+    <string name="resultTabu">Resultado da Tabuada</string>
+    <string name="title2">Tabuadas</string>
+
+    <!-- texts of exerc 3-->
     <string name="fahrenheit">Resultado em Fahrenheit</string>
     <string name="celsius">Digite graus Celsius</string>
-    <string name="titulo3"> Conversor de Graus Celsius em Fahrenheit </string>
+    <string name="title3">Conversor de Graus Celsius em Fahrenheit</string>
 
-    <!--texto resultado -->
-    <string name="resu">Resultado</string>
+    <!-- texts of exerc 4 -->
+    <string name="Reais">Digite o Valor em Real</string>
+    <string name="Dolar">Valor em Dolar</string>
+    <string name="title4">Conversor da Moeda Real em Dolar</string>
+    <string name="cotaçãoDoDolar">Digite a Cotação do Dolar Atual</string>
 
-    <!-- textos do exercicio 4 -->
-    <string name="Reais"> Digite o Valor em Real </string>
-    <string name="Dolar"> Valor em Dolar: </string>
-    <string name="titulo4"> Conversor da Moeda Real em Dolar </string>
-    <string name="cotaçãoDoDolar"> Digite a Cotação do Dolar Atual </string>
+    <!-- texts of exerc 5 -->
+    <string name="polegada">Digite o Valor em Polegadas</string>
+    <string name="centimetro">Resultado em Centimetros</string>
+    <string name="title5">Conversor de Polegada para Centimetros</string>
 
-    <!-- textos do exercicio 5 -->
-    <string name="polegada"> Digite o Valor em Polegadas </string>
-    <string name="centimetro"> Resultado em Centimetros </string>
-    <string name="titulo5"> Conversor de Polegada para Centimetros </string>
+    <!-- texts of exerc 6 -->
+    <string name="title6">Lista de Frutas</string>
+    <string name="editfruta1">Digite o nome da 1º fruta</string>
+    <string name="editfruta2">Digite o nome da 2º fruta</string>
+    <string name="editfruta3">Digite o nome da 3º fruta</string>
+    <string name="editfruta4">Digite o nome da 4º fruta</string>
+    <string name="editfruta5">Digite o nome da 5º fruta</string>
+    <string name="listaDeFrut">Sua Lista de Frutas</string>
+    <string name="nPreenchido">Espaço não Preenchido ;-;</string>
 
-    <!-- textos do exercicio 6 -->
-    <string name="titulo6"> Lista de Frutas</string>
-    <string name="editfruta1"> Digite o nome da 1º fruta </string>
-    <string name="editfruta2"> Digite o nome da 2º fruta </string>
-    <string name="editfruta3"> Digite o nome da 3º fruta </string>
-    <string name="editfruta4"> Digite o nome da 4º fruta </string>
-    <string name="editfruta5"> Digite o nome da 5º fruta </string>
-    <string name="listaDeFrut"> Sua Lista de Frutas </string>
-    <string name="nPreenchido"> Espaço não Preenchido ;-; </string>
-
-    <!-- textos do exercicio 7 -->
-    <string name="titulo7"> Invertendo Palavras </string>
-    <string name="editQualquerCoisa"> Digite qualquer coisa </string>
-    <string name="textInvertido"> Palavra Invertida </string>
+    <!-- texts of exerc 7 -->
+    <string name="title7">Invertendo Palavras</string>
+    <string name="editQualquerCoisa">Digite qualquer coisa</string>
+    <string name="textInvertido">Palavra Invertida</string>
     <string name="inverter">Inverter</string>
+
+    <!-- texts of exerc 8 -->
+    <string name="title8">Impar ou Par</string>
+    <string name="digitNumber">Digite qualquer numero</string>
+    <string name="parNumb">Numeros Pares</string>
+    <string name="imparNumb">Numeros Impares</string>
+
 
 
 </resources>
