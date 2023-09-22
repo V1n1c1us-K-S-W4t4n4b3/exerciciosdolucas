@@ -199,13 +199,45 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginBottom="40dp"
                 android:backgroundTint="@color/butonExcs"
                 android:text="@string/exc12"
                 android:textColor="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/buttonExc11" />
+                app:layout_constraintTop_toBottomOf="@+id/buttonExc11">
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttonExc13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="@color/butonExcs"
+                android:text="@string/exc13"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonExc12" />
+
+            <Button
+                android:id="@+id/buttonExc14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="@color/butonExcs"
+                android:text="@string/exc14"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonExc13">
+
+            </Button>
+
 
             <TextView
                 android:id="@+id/marcaDoDev"

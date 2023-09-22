@@ -2,15 +2,14 @@ package com.example.exerciciosdolucas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
-import com.example.exerciciosdolucas.databinding.ActivityExercicio1Binding
+import com.example.exerciciosdolucas.databinding.ActivityExerciseOneBinding
 
-class Exercicio1 : AppCompatActivity() {
-    private lateinit var binding: ActivityExercicio1Binding
+class ExerciseOne : AppCompatActivity() {
+    private lateinit var binding: ActivityExerciseOneBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityExercicio1Binding.inflate(layoutInflater)
+        binding = ActivityExerciseOneBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.backButton.setOnClickListener { finish() }

@@ -7,8 +7,9 @@
 
     <!-- Texto dos Buttons -->
     <string name="calcular">Calcular</string>
-    <string name="Back">Valtar</string>
+    <string name="Back">Voltar</string>
     <string name="Concluir">Concluir</string>
+    <string name="cleanButton">Limpar</string>
 
     <!-- nome das Activitys -->
     <string name="exc1">Exercicio 1 (Ex)</string>
@@ -23,6 +24,8 @@
     <string name="exc10">Exercicio 10 (Ex)</string>
     <string name="exc11">Exercicio 11 (Ex)</string>
     <string name="exc12">Exercicio 12 (Ex)</string>
+    <string name="exc13">Exercicio 13 (Ex)</string>
+    <string name="exc14">Exercicio 14 (Ex)</string>
 
     <!-- texts of exercc 1 -->
     <string name="somar">Soma</string>
@@ -76,6 +79,26 @@
     <string name="parNumb">Numeros Pares</string>
     <string name="imparNumb">Numeros Impares</string>
 
+    <!-- text of exerc 9 -->
+    <string name="title9">Maior, Média e Menor</string>
+    <string name="digitFirstNumb">Digite o Primeiro Numero</string>
+    <string name="digitSecondNumb">Digite o Segundo Numero</string>
+    <string name="digitThirdNumb">Digite o Terceiro Numero</string>
+    <string name="digitFourthNumb">Digite o Quarto Numero</string>
+    <string name="digitFifthNumb">Digite o Quinto Numero</string>
+    <string name="bigger">Maior Numero</string>
+    <string name="smaller">Menor Numero</string>
+    <string name="mediaNumber">Média</string>
+
+    <!--text of exerc 10-->
+    <string name="title10">Lista de Convidados</string>
+    <string name="digitName">Digite o Nome do Convidado</string>
+    <string name="bigName">Convidado de Maior Nome</string>
+
+    <!-- text of exerc 11-->
+    <string name="title11">Um Maiusculo, um Minusculo</string>
+    <string name="digitWord">Digite Qualquer Palavra</string>
+    <string name="resultNameText">Resultado da Palavra</string>
 
 
 </resources>

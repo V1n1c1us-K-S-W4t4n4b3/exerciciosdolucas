@@ -13,43 +13,49 @@
         android:theme="@style/Theme.ExerciciosDoLucas"
         tools:targetApi="31">
         <activity
-            android:name=".ConclusaoExercicio6"
+            android:name=".ExerciseFourteen"
             android:exported="false" />
         <activity
-            android:name=".Exercicio12"
+            android:name=".ExerciseThirteen"
             android:exported="false" />
         <activity
-            android:name=".Exercicio11"
+            android:name=".ExerciseSixPartTwo"
             android:exported="false" />
         <activity
-            android:name=".Exercicio10"
+            android:name=".ExerciseTwelve"
             android:exported="false" />
         <activity
-            android:name=".Exercicio9"
+            android:name=".ExerciseEleven"
             android:exported="false" />
         <activity
-            android:name=".Exercicio8"
+            android:name=".ExerciseTen"
             android:exported="false" />
         <activity
-            android:name=".Exercicio7"
+            android:name=".ExerciseNine"
             android:exported="false" />
         <activity
-            android:name=".Exercicio6"
+            android:name=".ExerciseEight"
             android:exported="false" />
         <activity
-            android:name=".Exercicio5"
+            android:name=".ExerciseSeven"
             android:exported="false" />
         <activity
-            android:name=".Exercicio4"
+            android:name=".ExerciseSixPartOne"
             android:exported="false" />
         <activity
-            android:name=".Exercicio3"
+            android:name=".ExerciseFive"
             android:exported="false" />
         <activity
-            android:name=".Exercicio2"
+            android:name=".ExerciseFour"
             android:exported="false" />
         <activity
-            android:name=".Exercicio1"
+            android:name=".ExerciseThree"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseTwo"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseOne"
             android:exported="false" />
         <activity
             android:name=".primeiroExercicio"

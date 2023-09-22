@@ -2,14 +2,14 @@ package com.example.exerciciosdolucas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.exerciciosdolucas.databinding.ActivityExercicio3Binding
+import com.example.exerciciosdolucas.databinding.ActivityExerciseThreeBinding
 
-class Exercicio3 : AppCompatActivity() {
-    private lateinit var binding: ActivityExercicio3Binding
+class ExerciseThree : AppCompatActivity() {
+    private lateinit var binding: ActivityExerciseThreeBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityExercicio3Binding.inflate(layoutInflater)
+        binding = ActivityExerciseThreeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.backButton.setOnClickListener { finish() }

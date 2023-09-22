@@ -2,17 +2,16 @@ package com.example.exerciciosdolucas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.exerciciosdolucas.databinding.ActivityExercicio4Binding
-import com.example.exerciciosdolucas.databinding.ActivityExercicio5Binding
+import com.example.exerciciosdolucas.databinding.ActivityExerciseFiveBinding
 import java.text.NumberFormat
 import java.util.Locale
 
-class Exercicio5 : AppCompatActivity() {
-    private lateinit var binding: ActivityExercicio5Binding
+class ExerciseFive : AppCompatActivity() {
+    private lateinit var binding: ActivityExerciseFiveBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityExercicio5Binding.inflate(layoutInflater)
+        binding = ActivityExerciseFiveBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.backButton.setOnClickListener { finish() }

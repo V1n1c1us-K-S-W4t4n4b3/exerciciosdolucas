@@ -2,16 +2,15 @@ package com.example.exerciciosdolucas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.TextUtils.SimpleStringSplitter
-import com.example.exerciciosdolucas.databinding.ActivityExercico7Binding
+import com.example.exerciciosdolucas.databinding.ActivityExerciseSevenBinding
 
-class Exercicio7 : AppCompatActivity() {
+class ExerciseSeven : AppCompatActivity() {
 
-    private lateinit var binding: ActivityExercico7Binding
+    private lateinit var binding: ActivityExerciseSevenBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityExercico7Binding.inflate(layoutInflater)
+        binding = ActivityExerciseSevenBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.backButton.setOnClickListener { finish() }
