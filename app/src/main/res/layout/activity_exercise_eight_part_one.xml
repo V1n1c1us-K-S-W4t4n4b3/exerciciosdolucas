@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ExerciseEight">
+    tools:context=".ExerciseEightPartOne">
 
     <TextView
         android:id="@+id/textView11"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editNumbList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -46,60 +46,61 @@
         android:layout_marginEnd="8dp"
         android:hint="@string/digitNumber"
         android:inputType="number"
-        android:maxLength="10"
+        android:maxLength="5"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textSize="24sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <TextView
-        android:id="@+id/parText"
+        android:id="@+id/textNumbList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/parNumb"
+        android:text="@string/numbList"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
-
-    <TextView
-        android:id="@+id/imparText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/imparNumb"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/parText" />
+        app:layout_constraintTop_toBottomOf="@+id/editNumbList" />
 
     <Button
-        android:id="@+id/calculateButton"
-        android:layout_width="wrap_content"
+        android:id="@+id/includedButton"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/butonExcs"
+        android:text="@string/incluirButton"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/concluirButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/concluirButton"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="80dp"
         android:backgroundTint="@color/butonExcs"
-        android:text="@string/calcular"
+        android:text="@string/Concluir"
         android:textAlignment="center"
+        android:textAllCaps="true"
         android:textColor="#FFFFFF"
+        android:textSize="16sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imparText" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/backButton"
@@ -107,10 +108,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="16dp"
-        android:textColor="#FFFFFF"
         android:backgroundTint="@color/butonExcs"
         android:text="@string/Back"
         android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

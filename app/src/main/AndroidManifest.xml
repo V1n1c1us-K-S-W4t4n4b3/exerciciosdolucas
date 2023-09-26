@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ExerciciosDoLucas"
         tools:targetApi="31">
         <activity
+            android:name=".ExerciseEightPartTwo"
+            android:exported="false" />
+        <activity
             android:name=".ExerciseFourteen"
             android:exported="false" />
         <activity
@@ -34,7 +37,7 @@
             android:name=".ExerciseNine"
             android:exported="false" />
         <activity
-            android:name=".ExerciseEight"
+            android:name=".ExerciseEightPartOne"
             android:exported="false" />
         <activity
             android:name=".ExerciseSeven"
