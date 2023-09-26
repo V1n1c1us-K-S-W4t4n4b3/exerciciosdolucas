@@ -52,13 +52,7 @@ class ExerciseTwo : AppCompatActivity() {
             // pois = recebe, + adciona e \n quebra linha logo ele recebe o resultado numa luinha e adciona o outro resultado na outra linha ate acabar o loop
             resultadoFinal += "$formula \n"
         }
-        //resultado. text é o textView que recebe o valor de resultado final
+        //resultado.text é o textView que recebe o valor de resultadoFinal
         resultado.text = resultadoFinal
     }
 }
-
-//termos q poderiam ser facilmente substituidos por receber! Atribuir é o mais correto no mercado
-// para ser armazenado
-// guardou no
-// dentro
-// que vai guardar

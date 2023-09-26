@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(irParaPag7)
         }
         binding.buttonExc8.setOnClickListener {
-            val irParaPag8 = Intent(this, ExerciseEight::class.java)
+            val irParaPag8 = Intent(this, ExerciseEightPartOne::class.java)
             startActivity(irParaPag8)
         }
         binding.buttonExc9.setOnClickListener {

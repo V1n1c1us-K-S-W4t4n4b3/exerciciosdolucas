@@ -22,13 +22,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
-        android:text="mais media menos"
+        android:text="@string/title9"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <EditText
-        android:id="@+id/firstNumbEdit"
+        android:id="@+id/editFirstNumb"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -50,10 +50,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+        app:layout_constraintTop_toBottomOf="@+id/textTitle" />
 
     <EditText
-        android:id="@+id/secondNumbEdit"
+        android:id="@+id/editSecondNumb"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -66,10 +66,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstNumbEdit" />
+        app:layout_constraintTop_toBottomOf="@+id/editFirstNumb" />
 
     <EditText
-        android:id="@+id/thirdNumbEdit"
+        android:id="@+id/editThirdNumb"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -82,10 +82,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/secondNumbEdit" />
+        app:layout_constraintTop_toBottomOf="@+id/editSecondNumb" />
 
     <EditText
-        android:id="@+id/fourthNumbEdit"
+        android:id="@+id/editfFurthNumb"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -98,10 +98,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/thirdNumbEdit" />
+        app:layout_constraintTop_toBottomOf="@+id/editThirdNumb" />
 
     <EditText
-        android:id="@+id/fifthNumbEdit"
+        android:id="@+id/editFifthNumb"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -114,15 +114,15 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fourthNumbEdit" />
+        app:layout_constraintTop_toBottomOf="@+id/editfFurthNumb" />
 
 
     <TextView
-        android:id="@+id/biggerNumbText"
+        android:id="@+id/textBigNumb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="@string/bigger"
         android:textAlignment="center"
@@ -130,11 +130,11 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fifthNumbEdit" />
+        app:layout_constraintTop_toBottomOf="@+id/textError404" />
 
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/text_small_numb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -146,9 +146,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/biggerNumbText" />
+        app:layout_constraintTop_toBottomOf="@+id/textBigNumb" />
 
     <TextView
+        android:id="@+id/textAverNumb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -160,10 +161,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+        app:layout_constraintTop_toBottomOf="@+id/text_small_numb" />
 
     <Button
-        android:id="@+id/calculateButton"
+        android:id="@+id/concluirButton"
         android:layout_width="170dp"
         android:layout_height="50dp"
         android:layout_marginEnd="24dp"
@@ -203,4 +204,21 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textError404"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/missNumber"
+        android:textAlignment="center"
+        android:textColor="#ED0008"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editFifthNumb" />
 </androidx.constraintlayout.widget.ConstraintLayout>

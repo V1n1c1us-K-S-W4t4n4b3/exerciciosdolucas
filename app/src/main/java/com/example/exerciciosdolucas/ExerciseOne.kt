@@ -19,6 +19,8 @@ class ExerciseOne : AppCompatActivity() {
         }
     }
 
+   //criando uma função chamada somar com dois parâmetros
+   // v1 do tipo Double e v2 do tipo Double que retorna um valor do tipo Double
     fun somar(v1: Double, v2: Double): Double {
         return v1 + v2
     }

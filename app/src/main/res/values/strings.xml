@@ -10,6 +10,7 @@
     <string name="Back">Voltar</string>
     <string name="Concluir">Concluir</string>
     <string name="cleanButton">Limpar</string>
+    <string name="incluirButton">Incluir</string>
 
     <!-- nome das Activitys -->
     <string name="exc1">Exercicio 1 (Ex)</string>
@@ -74,13 +75,15 @@
     <string name="inverter">Inverter</string>
 
     <!-- texts of exerc 8 -->
-    <string name="title8">Impar ou Par</string>
-    <string name="digitNumber">Digite qualquer numero</string>
+    <string name="title8">Digite os numeros para descobri se é "IMPAR ou PAR"</string>
+    <string name="digitNumber">Digite o numero para incluir na lista:</string>
     <string name="parNumb">Numeros Pares</string>
     <string name="imparNumb">Numeros Impares</string>
+    <string name="numbList">Lista de numeros</string>
+    <string name="oddOrEven">Impar ou par</string>
 
     <!-- text of exerc 9 -->
-    <string name="title9">Maior, Média e Menor</string>
+    <string name="title9">Maior, Menor e Média</string>
     <string name="digitFirstNumb">Digite o Primeiro Numero</string>
     <string name="digitSecondNumb">Digite o Segundo Numero</string>
     <string name="digitThirdNumb">Digite o Terceiro Numero</string>
@@ -89,6 +92,12 @@
     <string name="bigger">Maior Numero</string>
     <string name="smaller">Menor Numero</string>
     <string name="mediaNumber">Média</string>
+    <string name="missNumber">Favor preencher todos os Numeros</string>
+    <string name="vacilao">BURROOO! DIGITA CARALHOOOOO!!!</string>
+    <string name="bigresult">Resultado do maior numero : %1$s</string>
+    <string name="smallresult">Resultado do menor numero : %1$s</string>
+    <string name="mediaresult">Resultado da média : %1$s</string>
+
 
     <!--text of exerc 10-->
     <string name="title10">Lista de Convidados</string>

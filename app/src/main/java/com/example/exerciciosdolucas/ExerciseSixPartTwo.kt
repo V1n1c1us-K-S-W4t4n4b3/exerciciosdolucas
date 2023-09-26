@@ -13,6 +13,7 @@ class ExerciseSixPartTwo : AppCompatActivity() {
         setContentView(binding.root)
 
         recuperarDados()
+
         binding.backButton.setOnClickListener { finish() }
     }
 
