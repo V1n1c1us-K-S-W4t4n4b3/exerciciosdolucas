@@ -130,13 +130,25 @@
         android:id="@+id/concluirButton"
         android:layout_width="170dp"
         android:layout_height="60dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/butonExcs"
         android:text="@string/Concluir"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bigNameText" />
+        app:layout_constraintTop_toBottomOf="@+id/textError404" />
+
+    <Button
+        android:id="@+id/cleanButton"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/butonExcs"
+        android:text="@string/cleanButton"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textError404" />
 
     <Button
         android:id="@+id/backButton"
@@ -149,4 +161,21 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textError404"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/missName"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bigNameText" />
 </androidx.constraintlayout.widget.ConstraintLayout>

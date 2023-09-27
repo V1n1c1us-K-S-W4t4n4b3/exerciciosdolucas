@@ -2,17 +2,119 @@ package com.example.exerciciosdolucas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.example.exerciciosdolucas.databinding.ActivityExerciseTenBinding
 
 class ExerciseTen : AppCompatActivity() {
+
     private lateinit var binding: ActivityExerciseTenBinding
+    private var contadorDeErrors: Int = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivityExerciseTenBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.backButton.setOnClickListener { finish() }
+
+        binding.concluirButton.setOnClickListener { concluir() }
+
+        binding.cleanButton.setOnClickListener { clearn() }
+    }
+
+    fun validarCampos(v1: String?, v2: String?, v3: String?, v4: String?, v5: String?): Boolean {
+
+        return v1 != null && v2 != null && v3 != null && v4 != null && v5 != null
+    }
+
+    fun clearn() {
+
+        binding.DigitNameEdit1.setText("")
+        binding.DigitNameEdit2.setText("")
+        binding.DigitNameEdit3.setText("")
+        binding.DigitNameEdit4.setText("")
+        binding.DigitNameEdit5.setText("")
+        binding.bigNameText.setText(R.string.bigName)
+
+    }
+
+    fun contadorderros() {
+
+        contadorDeErrors++
+
+        if (contadorDeErrors == 5) {
+
+            val corDeBurro = resources.getColor(R.color.red)
+
+            binding.DigitNameEdit1.setText("")
+            binding.DigitNameEdit1.setHintTextColor(corDeBurro)
+            binding.DigitNameEdit1.setHint(R.string.vacilao)
+
+            binding.DigitNameEdit2.setText("")
+            binding.DigitNameEdit2.setHintTextColor(corDeBurro)
+            binding.DigitNameEdit2.setHint(R.string.vacilao)
+
+            binding.DigitNameEdit3.setText("")
+            binding.DigitNameEdit3.setHintTextColor(corDeBurro)
+            binding.DigitNameEdit3.setHint(R.string.vacilao)
+
+            binding.DigitNameEdit4.setText("")
+            binding.DigitNameEdit4.setHintTextColor(corDeBurro)
+            binding.DigitNameEdit4.setHint(R.string.vacilao)
+
+            binding.DigitNameEdit5.setText("")
+            binding.DigitNameEdit5.setHintTextColor(corDeBurro)
+            binding.DigitNameEdit5.setHint(R.string.vacilao)
+
+            contadorDeErrors = 0
+
+            binding.textError404.visibility = View.GONE
+
+        }
+
     }
 
 
+    fun maior(v1: String, v2: String, v3: String, v4: String, v5: String): String {
+
+        return maxOf(v1, v2, v3, v4, v5)
+
+    }
+
+    fun concluir() {
+
+        val nameOne = binding.DigitNameEdit1.text.toString()
+        val nametwo = binding.DigitNameEdit2.text.toString()
+        val nameThree = binding.DigitNameEdit3.text.toString()
+        val nameFour = binding.DigitNameEdit4.text.toString()
+        val nameFivi = binding.DigitNameEdit5.text.toString()
+
+        val bigName = binding.bigNameText
+
+        val isCamposValidados = validarCampos(nameOne, nametwo, nameThree, nameFour, nameFivi)
+
+
+        if (isCamposValidados) {
+
+            val nameOneString = binding.DigitNameEdit1.text.toString()
+            val nameTwoString = binding.DigitNameEdit2.text.toString()
+            val nameThreeString = binding.DigitNameEdit3.text.toString()
+            val nameFourString = binding.DigitNameEdit4.text.toString()
+            val nameFiviString = binding.DigitNameEdit5.text.toString()
+
+            val isMaior =
+                maior(nameOneString, nameTwoString, nameThreeString, nameFourString, nameFiviString)
+            bigName.text = getText(R.string.bigNameResult, isMaior)
+
+
+            binding.textError404.visibility = View.GONE
+
+        } else {
+            binding.textError404.visibility = View.VISIBLE
+
+            contadorderros()
+        }
+
+    }
 
 }

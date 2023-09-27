@@ -28,7 +28,8 @@ class ExerciseNine : AppCompatActivity() {
 
         return v1 != null && v2 != null && v3 != null && v4 != null && v5 != null
     }
-    fun clearn(){
+
+    fun clearn() {
 
         binding.editFirstNumb.setText("")
         binding.editSecondNumb.setText("")
@@ -40,7 +41,7 @@ class ExerciseNine : AppCompatActivity() {
         binding.textAverNumb.text = getString(R.string.mediaNumber)
     }
 
-    fun contadorderros3() {
+    fun contadorderros() {
 
         contadorDeErrors++
 
@@ -131,7 +132,7 @@ class ExerciseNine : AppCompatActivity() {
             // todo: exibir uma msg dizendo que há algum campo n preenchido
             binding.textError404.visibility = View.VISIBLE
 
-            contadorderros3()
+            contadorderros()
 
         }
 

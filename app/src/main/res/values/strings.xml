@@ -103,6 +103,8 @@
     <string name="title10">Lista de Convidados</string>
     <string name="digitName">Digite o Nome do Convidado</string>
     <string name="bigName">Convidado de Maior Nome</string>
+    <string name="missName">Digite Todos Os Nomes!</string>
+    <string name="bigNameResult">Convidado de Maior Nome é: %1$s</string>
 
     <!-- text of exerc 11-->
     <string name="title11">Um Maiusculo, um Minusculo</string>
