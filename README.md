@@ -1,5 +1,10 @@
-## 📄 Exercícios de Lógica de Programação 📄
-### By:  Professor Lucas Febatis 🎓
+## 📄 Exercícios de Lógica de Programação 📄 
+### By:  Professor Lucas Febatis 🎓 
+
+<div>
+<a href="https://docs.google.com/document/d/11x7oST-eInszg16hkSrhc1FKYngvwK_4-0WEWyKJh20/edit" target="_blank"><imag src="https://devicon-website.vercel.app/api/googlecloud/original.svg" target="_blank"></imag>
+</div>
+  
 ##
 ## Introdução ✒️
 
@@ -83,10 +88,14 @@ c. O valor do aumento;
 d. O novo salário, após o aumento.
 
 ##
-### Imagem Exemplo de Como o App deve se parecer 📱
+### Imagens da tela Inicial e Tela de Exercício 📱
 
 <div>
-<img aling="center" alt="Exemple" height="160" width="180" src="https://docs.google.com/document/d/11x7oST-eInszg16hkSrhc1FKYngvwK_4-0WEWyKJh20/edit"></div>
+  <img aling="Left" alt="Exemple" height="720" width="360" src="https://github.com/V1n1c1us-K-S-W4t4n4b3/exerciciosdolucas/assets/139295840/56815f54-d889-42c9-a305-da6ffc444beb">
+
+  
+  <img aling="Right" alt="Exemple" height="720" width="360" src="https://github.com/V1n1c1us-K-S-W4t4n4b3/exerciciosdolucas/assets/139295840/b2cdc252-d6c2-4cc8-9c9c-4b4161995857">
+</div>
 
 ##
 ### Avaliação 🔍
