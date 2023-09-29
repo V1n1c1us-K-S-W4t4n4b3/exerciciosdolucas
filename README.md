@@ -1,5 +1,5 @@
 ## 📄 Exercícios de Lógica de Programação 📄
-### By: Professor Lucas Febatis 🎓
+### By:  Professor Lucas Febatis 🎓
 ##
 ## Introdução ✒️
 
@@ -81,3 +81,29 @@ a. O salário antes do reajuste;
 b. O percentual de aumento aplicado;
 c. O valor do aumento;
 d. O novo salário, após o aumento.
+
+##
+### Imagem Exemplo de Como o App deve se parecer 📱
+
+<div>
+<img aling="center" alt="Exemple" height="160" width="180" src="https://docs.google.com/document/d/11x7oST-eInszg16hkSrhc1FKYngvwK_4-0WEWyKJh20/edit"></div>
+
+##
+### Avaliação 🔍
+
+Será avaliado o uso de estruturas de decisão e repetição como:
+
+- if else
+- switch case
+- for
+
+Padrão do nome das variáveis no Kotlin e no xml
+Uso do findViewById ou do Binding
+Se o nome dos variáveis estão em inglês
+Comentários da sua linha de pensamento em português 
+Ter um readme bacana, explicando o projeto
+Criatividade para construção das telas
+Comunicação
+##
+
+
