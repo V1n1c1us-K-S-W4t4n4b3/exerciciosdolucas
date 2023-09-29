@@ -1,10 +1,9 @@
 ## 📄 Exercícios de Lógica de Programação 📄 
 ### By:  Professor Lucas Febatis 🎓 
-
 <div>
-<a href="https://docs.google.com/document/d/11x7oST-eInszg16hkSrhc1FKYngvwK_4-0WEWyKJh20/edit" target="_blank"><imag src="https://devicon-website.vercel.app/api/googlecloud/original.svg" target="_blank"></imag>
+<a href="https://docs.google.com/document/d/11x7oST-eInszg16hkSrhc1FKYngvwK_4-0WEWyKJh20/edit" target="_blank"> Link do Google Drive 📁</a>
 </div>
-  
+
 ##
 ## Introdução ✒️
 
