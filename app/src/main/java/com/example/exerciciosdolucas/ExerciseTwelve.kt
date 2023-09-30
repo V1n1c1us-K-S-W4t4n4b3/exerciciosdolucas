@@ -45,7 +45,8 @@ class ExerciseTwelve : AppCompatActivity() {
 
     fun validarNames(n1: String?, n2: String?, n3: String?, n4: String?, n5: String?): Boolean {
 
-        return !n1.isNullOrEmpty() && !n2.isNullOrEmpty() && !n3.isNullOrEmpty() && !n4.isNullOrEmpty() && !n5.isNullOrEmpty()
+        return !n1.isNullOrEmpty() && !n2.isNullOrEmpty() && !n3.isNullOrEmpty()
+                && !n4.isNullOrEmpty() && !n5.isNullOrEmpty()
 
     }
 
@@ -88,14 +89,45 @@ class ExerciseTwelve : AppCompatActivity() {
 
     }
 
-    fun media(v1: Int, v2: Int, v3: Int, v4: Int, v5: Int): Int {
+    fun media(v1: Int?, v2: Int?, v3: Int?, v4: Int?, v5: Int?): Int {
 
-        return (v1 + v2 + v3 + v4 + v5) / 5
+        if (v1 != null && v2 != null && v3 != null && v4 != null && v5 != null) {
+            return (v1 + v2 + v3 + v4 + v5) / 5
+        }
+        return 0
     }
 
-    fun maior(v1: Int, v2: Int, v3: Int, v4: Int, v5: Int): Int {
+    fun media(): Int {
 
-        var resultBig = "".toInt()
+        if (listInt.isEmpty()) {
+            return 0
+        }
+
+        var soma = 0
+
+        for (i in 0..<listInt.size) {
+
+            val item = listInt[i]
+
+            soma += item
+        }
+        // poderia utilizar "return soma / listInt.size"
+        val resultMedia = soma / listInt.size
+        return resultMedia
+    }
+
+
+    fun maior(v1: Int, v2: Int, v3: Int, v4: Int, v5: Int): Int {
+        return maxOf(v1, v2, v3, v4, v5)
+    }
+
+    fun maior(): Int {
+
+        if (listInt.isEmpty()) {
+            return 0
+        }
+
+        var resultBig = 0
 
         for (i in 0..<listInt.size) {
 
@@ -105,14 +137,23 @@ class ExerciseTwelve : AppCompatActivity() {
                 resultBig = item
             }
         }
-        return resultBig
-        //return maxOf(v1, v2, v3, v4, v5)
 
+        return resultBig
     }
 
     fun menor(v1: Int, v2: Int, v3: Int, v4: Int, v5: Int): Int {
 
-        var resultMin = "".toInt()
+
+        return minOf(v1, v2, v3, v4, v5)
+    }
+
+    fun menor(): Int {
+
+        if (listInt.isEmpty()) {
+            return 0
+        }
+
+        var resultMin = listInt[0]
 
         for (i in 0..<listInt.size) {
 
@@ -124,13 +165,9 @@ class ExerciseTwelve : AppCompatActivity() {
         }
         return resultMin
 
-        //return minOf(v1, v2, v3, v4, v5)
     }
 
     fun concluir() {
-
-        addIntList()
-        addStringList()
 
         val nameOne = binding.editName1.text.toString()
         val nameTwo = binding.editName2.text.toString()
@@ -138,54 +175,65 @@ class ExerciseTwelve : AppCompatActivity() {
         val nameFour = binding.editName4.text.toString()
         val nameFive = binding.editName5.text.toString()
 
-        val idadeOne = binding.editAge1.text.toString().toInt()
-        val idadeTwo = binding.editAge2.text.toString().toInt()
-        val idadeThree = binding.editAge3.text.toString().toInt()
-        val idadeFour = binding.editAge4.text.toString().toInt()
-        val idadeFive = binding.editAge5.text.toString().toInt()
+        val idadeOne = binding.editAge1.text.toString().toIntOrNull()
+        val idadeTwo = binding.editAge2.text.toString().toIntOrNull()
+        val idadeThree = binding.editAge3.text.toString().toIntOrNull()
+        val idadeFour = binding.editAge4.text.toString().toIntOrNull()
+        val idadeFive = binding.editAge5.text.toString().toIntOrNull()
 
         val isNameValidado = validarNames(nameOne, nameTwo, nameThree, nameFour, nameFive)
         val isAgeValidado = validarIdade(idadeOne, idadeTwo, idadeThree, idadeFour, idadeFive)
 
-
-
-
-
         if (isAgeValidado && isNameValidado) {
 
+            addIntList()
+            addStringList()
 
-            val resultMaior = maior(idadeOne, idadeTwo, idadeThree, idadeFour, idadeFive).toString()
+            val resultMaior = maior()
+            val resultMenor = menor()
+            val resultMedium = media().toString()
 
-            val resultMenor = menor(idadeOne, idadeTwo, idadeThree, idadeFour, idadeFive).toString()
-
-            val resultMedium = media(idadeOne, idadeTwo, idadeThree, idadeFour, idadeFive).toString()
-
-            val stringMaior = String.format("%.3f", resultMaior)
-
-            if (resultMaior == idadeOne.toString()) {
-
-                binding.textOld.text = nameOne + resultMaior
-            } else if (resultMaior == idadeTwo.toString()) {
-
-                binding.textOld.text = nameTwo + resultMaior
-            } else if (resultMaior == idadeThree.toString()) {
-
-                binding.textOld.text = nameThree + resultMaior
-            } else if (resultMaior == idadeFour.toString()) {
-
-                binding.textOld.text = nameFour + resultMaior
-            } else if (resultMaior == idadeFive.toString()) {
-
-                binding.textOld.text = nameOne + resultMaior
+            if (resultMaior == idadeOne) {
+                binding.textOld.text =
+                    getString(R.string.name_age_old_placeholders, nameOne, resultMaior.toString())
+            } else if (resultMaior == idadeTwo) {
+                binding.textOld.text =
+                    getString(R.string.name_age_old_placeholders, nameTwo, resultMaior.toString())
+            } else if (resultMaior == idadeThree) {
+                binding.textOld.text =
+                    getString(R.string.name_age_old_placeholders, nameThree, resultMaior.toString())
+            } else if (resultMaior == idadeFour) {
+                binding.textOld.text =
+                    getString(R.string.name_age_old_placeholders, nameFour, resultMaior.toString())
+            } else if (resultMaior == idadeFive) {
+                binding.textOld.text =
+                    getString(R.string.name_age_old_placeholders, nameOne, resultMaior.toString())
             }
+
+            if (resultMenor == idadeOne) {
+                binding.textNew.text =
+                    getString(R.string.name_age_new_placeholders, nameOne, resultMenor.toString())
+            } else if (resultMenor == idadeTwo) {
+                binding.textNew.text =
+                    getString(R.string.name_age_new_placeholders, nameTwo, resultMenor.toString())
+            } else if (resultMenor == idadeThree) {
+                binding.textNew.text =
+                    getString(R.string.name_age_new_placeholders, nameThree, resultMenor.toString())
+            } else if (resultMenor == idadeFour) {
+                binding.textNew.text =
+                    getString(R.string.name_age_new_placeholders, nameFour, resultMenor.toString())
+            } else if (resultMenor == idadeFive) {
+                binding.textNew.text =
+                    getString(R.string.name_age_new_placeholders, nameFive, resultMenor.toString())
+            }
+
+            binding.textMedium.text = getString(R.string.average_age_placeholders, resultMedium)
 
             binding.textAviso.visibility = View.GONE
 
         } else {
-
             binding.textAviso.visibility = View.VISIBLE
         }
-
 
     }
 

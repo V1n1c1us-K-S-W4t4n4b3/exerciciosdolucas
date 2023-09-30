@@ -60,23 +60,23 @@ class ExerciseTen : AppCompatActivity() {
 
             binding.DigitNameEdit1.setText("")
             binding.DigitNameEdit1.setHintTextColor(corDeBurro)
-            binding.DigitNameEdit1.setHint(R.string.vacilao)
+            binding.DigitNameEdit1.setHint(R.string.punishment)
 
             binding.DigitNameEdit2.setText("")
             binding.DigitNameEdit2.setHintTextColor(corDeBurro)
-            binding.DigitNameEdit2.setHint(R.string.vacilao)
+            binding.DigitNameEdit2.setHint(R.string.punishment)
 
             binding.DigitNameEdit3.setText("")
             binding.DigitNameEdit3.setHintTextColor(corDeBurro)
-            binding.DigitNameEdit3.setHint(R.string.vacilao)
+            binding.DigitNameEdit3.setHint(R.string.punishment)
 
             binding.DigitNameEdit4.setText("")
             binding.DigitNameEdit4.setHintTextColor(corDeBurro)
-            binding.DigitNameEdit4.setHint(R.string.vacilao)
+            binding.DigitNameEdit4.setHint(R.string.punishment)
 
             binding.DigitNameEdit5.setText("")
             binding.DigitNameEdit5.setHintTextColor(corDeBurro)
-            binding.DigitNameEdit5.setHint(R.string.vacilao)
+            binding.DigitNameEdit5.setHint(R.string.punishment)
 
             contadorDeErrors = 0
 

@@ -2,11 +2,11 @@
     <string name="app_name">exercicios do lucas</string>
     <string name="marcaKZ">KZ</string>
 
-    <!-- texto resultado -->
-    <string name="resut">Resultado</string>
+    <!-- result text -->
+    <string name="result">Resultado</string>
 
     <!-- Better String -->
-    <string name="vacilao">POMANO, ME AJUDA AÍ NÉ VÉI!</string>
+    <string name="punishment">POMANO, ME AJUDA AÍ NÉ VÉI!</string>
 
     <!-- Text of Buttons -->
     <string name="calcular">Calcular</string>
@@ -31,7 +31,7 @@
     <string name="exc13">Exercicio 13 (Ex)</string>
     <string name="exc14">Exercicio 14 (Ex)</string>
 
-    <!-- texts of exercc 1 -->
+    <!-- texts of exerc 1 -->
     <string name="somar">Soma</string>
     <string name="subitrair">Subitração</string>
     <string name="multiplicar">Multiplicação</string>
@@ -129,4 +129,7 @@
     <string name="incompleted">Por Favor, Preencha todos os dados</string>
     <string name="age">Idade: %1$s</string>
     <string name="name">Nome: </string>
+    <string name="name_age_old_placeholders">Mais Velho\nNome : %1$s \nIdade : %2$s</string>
+    <string name="name_age_new_placeholders">Mais Novo\nNome : %1$s \nIdade : %2$s</string>
+    <string name="average_age_placeholders">Média de Idade : %1$s </string>
 </resources>

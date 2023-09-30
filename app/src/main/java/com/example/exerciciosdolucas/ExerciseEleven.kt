@@ -36,7 +36,7 @@ class ExerciseEleven : AppCompatActivity() {
 
             binding.wordEdit.setText("")
             binding.wordEdit.setHintTextColor(corDeBurro)
-            binding.wordEdit.setHint(R.string.vacilao)
+            binding.wordEdit.setHint(R.string.punishment)
         }
     }
 

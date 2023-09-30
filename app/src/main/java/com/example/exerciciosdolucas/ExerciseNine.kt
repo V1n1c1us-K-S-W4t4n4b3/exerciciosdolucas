@@ -51,23 +51,23 @@ class ExerciseNine : AppCompatActivity() {
 
             binding.editFirstNumb.setText("")
             binding.editFirstNumb.setHintTextColor(corDeBurro)
-            binding.editFirstNumb.setHint(R.string.vacilao)
+            binding.editFirstNumb.setHint(R.string.punishment)
 
             binding.editSecondNumb.setText("")
             binding.editSecondNumb.setHintTextColor(corDeBurro)
-            binding.editSecondNumb.setHint(R.string.vacilao)
+            binding.editSecondNumb.setHint(R.string.punishment)
 
             binding.editThirdNumb.setText("")
             binding.editThirdNumb.setHintTextColor(corDeBurro)
-            binding.editThirdNumb.setHint(R.string.vacilao)
+            binding.editThirdNumb.setHint(R.string.punishment)
 
             binding.editfFurthNumb.setText("")
             binding.editfFurthNumb.setHintTextColor(corDeBurro)
-            binding.editfFurthNumb.setHint(R.string.vacilao)
+            binding.editfFurthNumb.setHint(R.string.punishment)
 
             binding.editFifthNumb.setText("")
             binding.editFifthNumb.setHintTextColor(corDeBurro)
-            binding.editFifthNumb.setHint(R.string.vacilao)
+            binding.editFifthNumb.setHint(R.string.punishment)
 
             contadorDeErrors = 0
 
