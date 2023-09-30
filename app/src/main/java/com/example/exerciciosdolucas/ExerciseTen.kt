@@ -46,6 +46,7 @@ class ExerciseTen : AppCompatActivity() {
         binding.DigitNameEdit4.setText("")
         binding.DigitNameEdit5.setText("")
         binding.bigNameText.setText(R.string.bigName)
+        binding.textError404.visibility = View.GONE
 
     }
 

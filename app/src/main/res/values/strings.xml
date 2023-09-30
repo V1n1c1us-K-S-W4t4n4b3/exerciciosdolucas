@@ -2,20 +2,20 @@
     <string name="app_name">exercicios do lucas</string>
     <string name="marcaKZ">KZ</string>
 
-    <!--texto resultado -->
+    <!-- texto resultado -->
     <string name="resut">Resultado</string>
 
-    <!-- String de Maior utilidade do projeto-->
+    <!-- Better String -->
     <string name="vacilao">POMANO, ME AJUDA AÍ NÉ VÉI!</string>
 
-    <!-- Texto dos Buttons -->
+    <!-- Text of Buttons -->
     <string name="calcular">Calcular</string>
     <string name="Back">Voltar</string>
     <string name="Concluir">Concluir</string>
     <string name="cleanButton">Limpar</string>
     <string name="incluirButton">Incluir</string>
 
-    <!-- nome das Activitys -->
+    <!-- name of Activitys -->
     <string name="exc1">Exercicio 1 (Ex)</string>
     <string name="exc2">Exercicio 2 (Ex)</string>
     <string name="exc3">Exercicio 3 (Ex)</string>
@@ -45,7 +45,7 @@
     <string name="resultTabu">Resultado da Tabuada</string>
     <string name="title2">Tabuadas</string>
 
-    <!-- texts of exerc 3-->
+    <!-- texts of exerc 3 -->
     <string name="fahrenheit">Resultado em Fahrenheit</string>
     <string name="celsius">Digite graus Celsius</string>
     <string name="title3">Conversor de Graus Celsius em Fahrenheit</string>
@@ -101,18 +101,30 @@
     <string name="mediaresult">Resultado da média : %1$s</string>
 
 
-    <!--text of exerc 10-->
+    <!-- text of exerc 10 -->
     <string name="title10">Lista de Convidados</string>
     <string name="digitName">Digite o Nome do Convidado</string>
     <string name="bigName">Convidado de Maior Nome</string>
     <string name="missName">Digite Todos Os Nomes!</string>
     <string name="bigNameResult">Convidado de Maior Nome é: %1$s</string>
 
-    <!-- text of exerc 11-->
+    <!-- text of exerc 11 -->
     <string name="title11">Palavras com o Impar em Maiusculo</string>
     <string name="digitWord">Digite Qualquer Palavra</string>
     <string name="resultNameText">Resultado da Palavra</string>
     <string name="missWord">Por Favor, Escreva Alguma Palavra</string>
 
-
+    <!-- text of exerc 12 -->
+    <string name="title12">Mais velho, mais novo e idade Média</string>
+    <string name="digitAge">Digite a Idade</string>
+    <string name="textOldPerson">Mais Velho</string>
+    <string name="textNewPerson">Mais Novo</string>
+    <string name="textMediumPerson">Fachetaria Média de Idade</string>
+    <string name="editName">Digite o nome</string>
+    <string name="firstPerson">Primeira pessoa</string>
+    <string name="secondPerson">Segunda pessoa</string>
+    <string name="thirdPerson">Terceira pessoa</string>
+    <string name="fourthPerson">Quarta pessoa</string>
+    <string name="fifthPerson">Quinta pessoa</string>
+    <string name="incompleted">Por Favor, Preencha todos os dados</string>
 </resources>
