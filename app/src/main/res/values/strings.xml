@@ -5,6 +5,9 @@
     <!--texto resultado -->
     <string name="resut">Resultado</string>
 
+    <!-- String de Maior utilidade do projeto-->
+    <string name="vacilao">POMANO, ME AJUDA AÍ NÉ VÉI!</string>
+
     <!-- Texto dos Buttons -->
     <string name="calcular">Calcular</string>
     <string name="Back">Voltar</string>
@@ -93,7 +96,6 @@
     <string name="smaller">Menor Numero</string>
     <string name="mediaNumber">Média</string>
     <string name="missNumber">Favor preencher todos os Numeros</string>
-    <string name="vacilao">BURROOO! DIGITA CARALHOOOOO!!!</string>
     <string name="bigresult">Resultado do maior numero : %1$s</string>
     <string name="smallresult">Resultado do menor numero : %1$s</string>
     <string name="mediaresult">Resultado da média : %1$s</string>
@@ -107,9 +109,10 @@
     <string name="bigNameResult">Convidado de Maior Nome é: %1$s</string>
 
     <!-- text of exerc 11-->
-    <string name="title11">Um Maiusculo, um Minusculo</string>
+    <string name="title11">Palavras com o Impar em Maiusculo</string>
     <string name="digitWord">Digite Qualquer Palavra</string>
     <string name="resultNameText">Resultado da Palavra</string>
+    <string name="missWord">Por Favor, Escreva Alguma Palavra</string>
 
 
 </resources>
