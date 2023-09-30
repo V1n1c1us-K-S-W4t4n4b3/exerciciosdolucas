@@ -43,6 +43,9 @@
       android:layout_marginStart="16dp"
       android:layout_marginTop="8dp"
       android:hint="@string/editName"
+      android:inputType="textPersonName"
+      android:textAlignment="center"
+      android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
@@ -53,6 +56,9 @@
       android:layout_marginStart="16dp"
       android:layout_marginTop="8dp"
       android:hint="@string/editName"
+      android:inputType="textPersonName"
+      android:textAlignment="center"
+      android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
@@ -63,6 +69,9 @@
       android:layout_marginStart="16dp"
       android:layout_marginTop="8dp"
       android:hint="@string/editName"
+      android:inputType="textPersonName"
+      android:textAlignment="center"
+      android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
@@ -73,6 +82,9 @@
       android:layout_marginStart="16dp"
       android:layout_marginTop="8dp"
       android:hint="@string/editName"
+      android:inputType="textPersonName"
+      android:textAlignment="center"
+      android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView31" />
 
@@ -83,6 +95,9 @@
       android:layout_marginStart="16dp"
       android:layout_marginTop="8dp"
       android:hint="@string/editName"
+      android:inputType="textPersonName"
+      android:textAlignment="center"
+      android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
@@ -93,6 +108,9 @@
       android:layout_marginStart="8dp"
       android:layout_marginTop="8dp"
       android:hint="@string/digitAge"
+      android:inputType="number"
+      android:textAlignment="center"
+      android:textStyle="bold"
       app:layout_constraintStart_toEndOf="@+id/edit_Name1"
       app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
@@ -103,6 +121,9 @@
       android:layout_marginStart="8dp"
       android:layout_marginTop="8dp"
       android:hint="@string/digitAge"
+      android:inputType="number"
+      android:textAlignment="center"
+      android:textStyle="bold"
       app:layout_constraintStart_toEndOf="@+id/edit_Name2"
       app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
@@ -113,6 +134,9 @@
       android:layout_marginStart="8dp"
       android:layout_marginTop="8dp"
       android:hint="@string/digitAge"
+      android:inputType="number"
+      android:textAlignment="center"
+      android:textStyle="bold"
       app:layout_constraintStart_toEndOf="@+id/edit_Name3"
       app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
@@ -123,6 +147,9 @@
       android:layout_marginStart="8dp"
       android:layout_marginTop="8dp"
       android:hint="@string/digitAge"
+      android:inputType="number"
+      android:textAlignment="center"
+      android:textStyle="bold"
       app:layout_constraintStart_toEndOf="@+id/edit_name4"
       app:layout_constraintTop_toBottomOf="@+id/textView31" />
 
@@ -133,6 +160,9 @@
       android:layout_marginStart="8dp"
       android:layout_marginTop="8dp"
       android:hint="@string/digitAge"
+      android:inputType="number"
+      android:textAlignment="center"
+      android:textStyle="bold"
       app:layout_constraintStart_toEndOf="@+id/edit_Name5"
       app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
@@ -215,7 +245,7 @@
       android:id="@+id/Conclu_Button"
       android:layout_width="170dp"
       android:layout_height="50dp"
-      android:layout_marginTop="8dp"
+      android:layout_marginTop="32dp"
       android:layout_marginEnd="24dp"
       android:text="@string/Concluir"
       app:layout_constraintEnd_toEndOf="parent"
@@ -226,7 +256,7 @@
       android:layout_width="170dp"
       android:layout_height="50dp"
       android:layout_marginStart="24dp"
-      android:layout_marginTop="8dp"
+      android:layout_marginTop="32dp"
       android:text="@string/cleanButton"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/text_Aviso" />
@@ -236,7 +266,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginStart="16dp"
-      android:layout_marginTop="16dp"
+      android:layout_marginTop="32dp"
       android:text="@string/textNewPerson"
       android:textAlignment="center"
       android:textSize="16sp"
@@ -248,7 +278,7 @@
       android:id="@+id/text_Old"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="16dp"
+      android:layout_marginTop="32dp"
       android:layout_marginEnd="16dp"
       android:text="@string/textOldPerson"
       android:textAlignment="center"

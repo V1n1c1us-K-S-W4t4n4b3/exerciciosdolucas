@@ -115,7 +115,7 @@
     <string name="missWord">Por Favor, Escreva Alguma Palavra</string>
 
     <!-- text of exerc 12 -->
-    <string name="title12">Mais velho, mais novo e idade Média</string>
+    <string name="title12">Mais novo, mais velho e idade Média</string>
     <string name="digitAge">Digite a Idade</string>
     <string name="textOldPerson">Mais Velho</string>
     <string name="textNewPerson">Mais Novo</string>
@@ -127,4 +127,6 @@
     <string name="fourthPerson">Quarta pessoa</string>
     <string name="fifthPerson">Quinta pessoa</string>
     <string name="incompleted">Por Favor, Preencha todos os dados</string>
+    <string name="age">Idade: %1$s</string>
+    <string name="name">Nome: </string>
 </resources>
