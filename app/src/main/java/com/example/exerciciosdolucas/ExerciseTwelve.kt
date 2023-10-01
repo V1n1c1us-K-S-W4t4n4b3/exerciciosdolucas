@@ -21,10 +21,10 @@ class ExerciseTwelve : AppCompatActivity() {
 
         binding.ConcluButton.setOnClickListener { concluir() }
 
-        binding.clearnButton.setOnClickListener { clearn() }
+        binding.clearnButton.setOnClickListener { clear() }
     }
 
-    fun clearn() {
+    fun clear() {
 
         binding.editName1.setText("")
         binding.editName2.setText("")
@@ -60,17 +60,18 @@ class ExerciseTwelve : AppCompatActivity() {
     fun addStringList() {
 
         val nameOne = binding.editName1.text.toString()
-        val nametwo = binding.editName2.text.toString()
+        val nameTwo = binding.editName2.text.toString()
         val nameThree = binding.editName3.text.toString()
         val nameFour = binding.editName4.text.toString()
-        val nameFivi = binding.editName5.text.toString()
+        val nameFive = binding.editName5.text.toString()
 
         //listName.addAll(arrayOf(nameOne, nametwo, nameThree, nameFour, nameFivi))
         listName.add(nameOne)
-        listName.add(nametwo)
+        listName.add(nameTwo)
         listName.add(nameThree)
         listName.add(nameFour)
-        listName.add(nameFivi)
+        listName.add(nameFive)
+
     }
 
     fun addIntList() {

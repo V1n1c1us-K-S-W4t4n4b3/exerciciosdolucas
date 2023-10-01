@@ -18,8 +18,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitName"
-            android:inputType="textPersonName"
+            android:hint="@string/digit_name"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,6 +27,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Name1"
                 android:layout_width="match_parent"
+                android:inputType="textPersonName"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -39,7 +39,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitHeight"
+            android:hint="@string/digit_height"
             app:layout_constraintEnd_toStartOf="@id/editPeso1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/editName1">
@@ -47,6 +47,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Altura1"
                 android:layout_width="match_parent"
+                android:inputType="numberDecimal"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -58,13 +59,14 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitWeight"
+            android:hint="@string/digit_weight"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/editAltura1"
             app:layout_constraintTop_toBottomOf="@id/editName1">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Peso1"
+                android:inputType="numberDecimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -76,8 +78,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitName"
-            android:inputType="textPersonName"
+            android:hint="@string/digit_name"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -85,6 +86,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Name2"
+                android:inputType="textPersonName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -97,7 +99,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitHeight"
+            android:hint="@string/digit_height"
             app:layout_constraintEnd_toStartOf="@id/editPeso2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/editName2">
@@ -105,6 +107,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Altura2"
                 android:layout_width="match_parent"
+                android:inputType="numberDecimal"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -116,7 +119,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitWeight"
+            android:hint="@string/digit_weight"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/editAltura2"
             app:layout_constraintTop_toBottomOf="@id/editName2">
@@ -124,6 +127,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Peso2"
                 android:layout_width="match_parent"
+                android:inputType="numberDecimal"
                 android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -134,8 +138,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitName"
-            android:inputType="textPersonName"
+            android:hint="@string/digit_name"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -144,6 +147,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Name3"
                 android:layout_width="match_parent"
+                android:inputType="textPersonName"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -155,13 +159,14 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitHeight"
+            android:hint="@string/digit_height"
             app:layout_constraintEnd_toStartOf="@id/editPeso3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/editName3">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Altura3"
+                android:inputType="numberDecimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -174,7 +179,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitWeight"
+            android:hint="@string/digit_weight"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/editAltura3"
             app:layout_constraintTop_toBottomOf="@id/editName3">
@@ -182,6 +187,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Peso3"
                 android:layout_width="match_parent"
+                android:inputType="numberDecimal"
                 android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -192,8 +198,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitName"
-            android:inputType="textPersonName"
+            android:hint="@string/digit_name"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -202,6 +207,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Name4"
                 android:layout_width="match_parent"
+                android:inputType="textPersonName"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -213,13 +219,14 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitHeight"
+            android:hint="@string/digit_height"
             app:layout_constraintEnd_toStartOf="@id/editPeso4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/editName4">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Altura4"
+                android:inputType="numberDecimal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -232,7 +239,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitWeight"
+            android:hint="@string/digit_weight"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/editAltura4"
             app:layout_constraintTop_toBottomOf="@id/editName4">
@@ -240,6 +247,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Peso4"
                 android:layout_width="match_parent"
+                android:inputType="numberDecimal"
                 android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -250,8 +258,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitName"
-            android:inputType="textPersonName"
+            android:hint="@string/digit_name"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -260,6 +267,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Name5"
                 android:layout_width="match_parent"
+                android:inputType="textPersonName"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -271,7 +279,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitHeight"
+            android:hint="@string/digit_height"
             app:layout_constraintEnd_toStartOf="@id/editPeso5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/editName5">
@@ -279,6 +287,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Altura5"
                 android:layout_width="match_parent"
+                android:inputType="numberDecimal"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -290,7 +299,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:hint="@string/digitWeight"
+            android:hint="@string/digit_weight"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/editAltura5"
             app:layout_constraintTop_toBottomOf="@id/editName5">
@@ -298,6 +307,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_Peso5"
                 android:layout_width="match_parent"
+                android:inputType="numberDecimal"
                 android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -322,7 +332,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/title13"
+            android:text="@string/title_13"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textSize="24sp"

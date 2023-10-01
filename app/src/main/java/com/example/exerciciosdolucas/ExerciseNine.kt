@@ -19,7 +19,7 @@ class ExerciseNine : AppCompatActivity() {
 
         binding.concluirButton.setOnClickListener { concluir() }
 
-        binding.cleanButton.setOnClickListener { clearn() }
+        binding.cleanButton.setOnClickListener { clear() }
     }
 
 
@@ -29,7 +29,7 @@ class ExerciseNine : AppCompatActivity() {
         return v1 != null && v2 != null && v3 != null && v4 != null && v5 != null
     }
 
-    fun clearn() {
+    fun clear() {
 
         binding.editFirstNumb.setText("")
         binding.editSecondNumb.setText("")

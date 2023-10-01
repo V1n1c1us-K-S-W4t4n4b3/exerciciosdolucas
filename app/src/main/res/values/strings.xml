@@ -134,10 +134,13 @@
     <string name="average_age_placeholders">Média de Idade : %1$s </string>
 
     <!-- exercise 13 texts -->
-    <string name="title13">Calcula de IMC</string>
-    <string name="digitHeight">Digite a altura</string>
-    <string name="digitWeight">Digite o peso</string>
-    <string name="digitName">Digite o nome</string>
+    <string name="title_13">Calcula de IMC</string>
+    <string name="digit_height">Digite a altura</string>
+    <string name="digit_weight">Digite o peso</string>
+    <string name="digit_name">Digite o nome</string>
     <string name="fat">Gordinho</string>
+    <string name="name_fat_placeholders"> %1$s esta acima do peso\nIMC: %2$s</string>
+    <string name="name_lean_placeholders">%1$s esta abaixo do peso\nIMC: %2$s</string>
+
 
 </resources>
