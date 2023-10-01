@@ -119,7 +119,7 @@
     <string name="digitAge">Digite a Idade</string>
     <string name="textOldPerson">Mais Velho</string>
     <string name="textNewPerson">Mais Novo</string>
-    <string name="textMediumPerson">Fachetaria Média de Idade</string>
+    <string name="textMediumPerson">Média de Idade</string>
     <string name="editName">Digite o nome</string>
     <string name="firstPerson">Primeira pessoa</string>
     <string name="secondPerson">Segunda pessoa</string>
@@ -139,8 +139,9 @@
     <string name="digit_weight">Digite o peso</string>
     <string name="digit_name">Digite o nome</string>
     <string name="fat">Gordinho</string>
-    <string name="name_fat_placeholders"> %1$s esta acima do peso\nIMC: %2$s</string>
-    <string name="name_lean_placeholders">%1$s esta abaixo do peso\nIMC: %2$s</string>
+    <string name="name_fat_placeholders"> %1$s está acima do peso, IMC: %2$s</string>
+    <string name="name_lean_placeholders">%1$s está abaixo do peso, IMC: %2$s</string>
+    <string name="name_ideal_weight_placeholders">%1$s está no peso ideal, IMC: %2$s</string>
 
 
 </resources>

@@ -22,6 +22,7 @@ class ExerciseTwelve : AppCompatActivity() {
         binding.ConcluButton.setOnClickListener { concluir() }
 
         binding.clearnButton.setOnClickListener { clear() }
+
     }
 
     fun clear() {

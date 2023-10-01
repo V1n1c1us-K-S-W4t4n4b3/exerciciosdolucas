@@ -15,7 +15,6 @@ class ExerciseThirteen : AppCompatActivity() {
 
     private val listPeso = mutableListOf<Double>()
 
-    private val listIMC = mutableListOf<Double>()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,36 +26,10 @@ class ExerciseThirteen : AppCompatActivity() {
 
         binding.cleanButton.setOnClickListener { clear() }
 
-        //binding.concluButton.setOnClickListener { concluir }
+        binding.concluButton.setOnClickListener { concluir() }
 
     }
 
-    fun clear() {
-
-        binding.editName1.setText("")
-        binding.editName2.setText("")
-        binding.editName3.setText("")
-        binding.editName4.setText("")
-        binding.editName5.setText("")
-
-        binding.editAltura1.setText("")
-        binding.editAltura2.setText("")
-        binding.editAltura3.setText("")
-        binding.editAltura4.setText("")
-        binding.editAltura5.setText("")
-
-        binding.editPeso1.setText("")
-        binding.editPeso2.setText("")
-        binding.editPeso3.setText("")
-        binding.editPeso4.setText("")
-        binding.editPeso5.setText("")
-
-        binding.result1.visibility = View.GONE
-        binding.result2.visibility = View.GONE
-        binding.result3.visibility = View.GONE
-        binding.result4.visibility = View.GONE
-        binding.result5.visibility = View.GONE
-    }
 
     fun validarName(n1: String?, n2: String?, n3: String?, n4: String?, n5: String?): Boolean {
 
@@ -72,15 +45,17 @@ class ExerciseThirteen : AppCompatActivity() {
     fun validarPeso(p1: Double?, p2: Double?, p3: Double?, p4: Double?, p5: Double?): Boolean {
 
         return p1 != null && p2 != null && p3 != null && p4 != null && p5 != null
+
     }
 
     fun addListName() {
 
-        val nameOne = binding.editName1.text.toString()
-        val nameTwo = binding.editName1.text.toString()
-        val nameThree = binding.editName1.text.toString()
-        val nameFour = binding.editName1.text.toString()
-        val nameFive = binding.editName1.text.toString()
+
+        val nameOne = binding.tietName1.text.toString()
+        val nameTwo = binding.tietName2.text.toString()
+        val nameThree = binding.tietName3.text.toString()
+        val nameFour = binding.tietName4.text.toString()
+        val nameFive = binding.tietName5.text.toString()
 
         listName.add(nameOne)
         listName.add(nameTwo)
@@ -91,11 +66,12 @@ class ExerciseThirteen : AppCompatActivity() {
 
     fun addListAltura() {
 
-        val alturaOne = binding.editAltura1.text.toString().toDouble()
-        val alturaTwo = binding.editAltura2.text.toString().toDouble()
-        val alturaThree = binding.editAltura3.text.toString().toDouble()
-        val alturaFour = binding.editAltura4.text.toString().toDouble()
-        val alturaFive = binding.editAltura5.text.toString().toDouble()
+
+        val alturaOne = binding.tietAltura1.text.toString().toDouble()
+        val alturaTwo = binding.tietAltura2.text.toString().toDouble()
+        val alturaThree = binding.tietAltura3.text.toString().toDouble()
+        val alturaFour = binding.tietAltura4.text.toString().toDouble()
+        val alturaFive = binding.tietAltura5.text.toString().toDouble()
 
         listAltura.add(alturaOne)
         listAltura.add(alturaTwo)
@@ -106,11 +82,12 @@ class ExerciseThirteen : AppCompatActivity() {
 
     fun addListPeso() {
 
-        val pesoOne = binding.editPeso1.text.toString().toDouble()
-        val pesoTwo = binding.editPeso2.text.toString().toDouble()
-        val pesoThree = binding.editPeso3.text.toString().toDouble()
-        val pesoFour = binding.editPeso4.text.toString().toDouble()
-        val pesoFive = binding.editPeso5.text.toString().toDouble()
+
+        val pesoOne = binding.tietPeso1.text.toString().toDouble()
+        val pesoTwo = binding.tietPeso2.text.toString().toDouble()
+        val pesoThree = binding.tietPeso3.text.toString().toDouble()
+        val pesoFour = binding.tietPeso4.text.toString().toDouble()
+        val pesoFive = binding.tietPeso5.text.toString().toDouble()
 
         listPeso.add(pesoOne)
         listPeso.add(pesoTwo)
@@ -119,46 +96,210 @@ class ExerciseThirteen : AppCompatActivity() {
         listPeso.add(pesoFive)
     }
 
-    fun formulaIMC(
-        a1: Double,
-        a2: Double,
-        a3: Double,
-        a4: Double,
-        a5: Double,
-        p1: Double,
-        p2: Double,
-        p3: Double,
-        p4: Double,
-        p5: Double,
-    ): Double {
+    fun clear() {
 
-        addListName()
+        binding.tietName1.setText("")
+        binding.tietName2.setText("")
+        binding.tietName3.setText("")
+        binding.tietName4.setText("")
+        binding.tietName5.setText("")
 
-        val alturaOne = binding.editAltura1.text.toString().toDouble()
-        val alturaTwo = binding.editAltura2.text.toString().toDouble()
-        val alturaThree = binding.editAltura3.text.toString().toDouble()
-        val alturaFour = binding.editAltura4.text.toString().toDouble()
-        val alturaFive = binding.editAltura5.text.toString().toDouble()
+        binding.tietAltura1.setText("")
+        binding.tietAltura2.setText("")
+        binding.tietAltura3.setText("")
+        binding.tietAltura4.setText("")
+        binding.tietAltura5.setText("")
 
-        val pesoOne = binding.editPeso1.text.toString().toDouble()
-        val pesoTwo = binding.editPeso2.text.toString().toDouble()
-        val pesoThree = binding.editPeso3.text.toString().toDouble()
-        val pesoFour = binding.editPeso4.text.toString().toDouble()
-        val pesoFive = binding.editPeso5.text.toString().toDouble()
+        binding.tietPeso1.setText("")
+        binding.tietPeso2.setText("")
+        binding.tietPeso3.setText("")
+        binding.tietPeso4.setText("")
+        binding.tietPeso5.setText("")
 
-        val formula1 = pesoOne / (alturaOne * alturaOne)
-        val formula2 = pesoTwo / (alturaTwo * alturaTwo)
-        val formula3 = pesoThree / (alturaThree * alturaThree)
-        val formula4 = pesoFour / (alturaFour * alturaFour)
-        val formula5 = pesoFive / (alturaFive * alturaFive)
+        binding.result1.visibility = View.GONE
+        binding.result2.visibility = View.GONE
+        binding.result3.visibility = View.GONE
+        binding.result4.visibility = View.GONE
+        binding.result5.visibility = View.GONE
+    }
 
-        val result = 0
+    fun calculateIMC(): List<Double> {
 
-        if (formula1 < 19){
-
-            binding.result1.text = getText(R.string.name_lean_placeholders, , formula1.toString().toDouble())
+        if (listPeso.isEmpty() || listAltura.isEmpty()) {
+            return mutableListOf()
         }
 
 
+        val resultado = mutableListOf<Double>()
+
+        for (i in 0 ..<listName.size) {
+
+            val peso = listPeso[i]
+            val altura = listAltura[i]
+
+            val imcResult = peso / (altura*altura)
+
+            resultado.add(imcResult)
+        }
+        return resultado
+
     }
+
+    fun concluir() {
+
+
+        val nameOne = binding.tietName1.text.toString()
+        val nameTwo = binding.tietName2.text.toString()
+        val nameThree = binding.tietName3.text.toString()
+        val nameFour = binding.tietName4.text.toString()
+        val nameFive = binding.tietName5.text.toString()
+
+        val alturaOne = binding.tietAltura1.text.toString().toDoubleOrNull()
+        val alturaTwo = binding.tietAltura2.text.toString().toDoubleOrNull()
+        val alturaThree = binding.tietAltura3.text.toString().toDoubleOrNull()
+        val alturaFour = binding.tietAltura4.text.toString().toDoubleOrNull()
+        val alturaFive = binding.tietAltura5.text.toString().toDoubleOrNull()
+
+        val pesoOne = binding.tietPeso1.text.toString().toDoubleOrNull()
+        val pesoTwo = binding.tietPeso2.text.toString().toDoubleOrNull()
+        val pesoThree = binding.tietPeso3.text.toString().toDoubleOrNull()
+        val pesoFour = binding.tietPeso4.text.toString().toDoubleOrNull()
+        val pesoFive = binding.tietPeso5.text.toString().toDoubleOrNull()
+
+        val isValidoAltura =
+            validarAltura(alturaOne, alturaTwo, alturaThree, alturaFour, alturaFive)
+        val isValidoPeso = validarPeso(pesoOne, pesoTwo, pesoThree, pesoFour, pesoFive)
+        val isValidoName = validarName(nameOne, nameTwo, nameThree, nameFour, nameFive)
+
+
+        if (isValidoAltura && isValidoPeso && isValidoName) {
+
+            addListName()
+            addListAltura()
+            addListPeso()
+            calculateIMC()
+
+            val result1 = calculateIMC()[0]
+            val result2 =calculateIMC()[1]
+            val result3 =calculateIMC()[2]
+            val result4 =calculateIMC()[3]
+            val result5 =calculateIMC()[4]
+
+            val resultString1 = String.format("%.3f", result1)
+            val resultString2 = String.format("%.3f", result2)
+            val resultString3 = String.format("%.3f", result3)
+            val resultString4 = String.format("%.3f", result4)
+            val resultString5 = String.format("%.3f", result5)
+
+            if (result1 < 18.5) {
+                binding.result1.text =
+                    getString(R.string.name_lean_placeholders, nameOne, resultString1)
+
+                binding.result1.visibility = View.VISIBLE
+
+            } else if (result1 == 18.5 || result1 < 25) {
+                binding.result1.text =
+                    getString(R.string.name_ideal_weight_placeholders, nameOne, resultString1)
+
+                binding.result1.visibility = View.VISIBLE
+
+            } else if (result1 > 25) {
+                binding.result1.text =
+                    getString(R.string.name_fat_placeholders, nameOne, resultString1)
+
+                binding.result1.visibility = View.VISIBLE
+            }
+
+
+            if (result2 < 18.5) {
+                binding.result2.text =
+                    getString(R.string.name_lean_placeholders, nameTwo, resultString2)
+
+                binding.result2.visibility = View.VISIBLE
+
+            } else if (result2 == 18.5 || result2 < 25) {
+                binding.result2.text =
+                    getString(R.string.name_ideal_weight_placeholders, nameTwo, resultString2)
+
+                binding.result2.visibility = View.VISIBLE
+
+            } else if (result2 > 25) {
+                binding.result2.text =
+                    getString(R.string.name_fat_placeholders, nameTwo, resultString2)
+
+                binding.result2.visibility = View.VISIBLE
+            }
+
+
+            if (result3 < 18.5) {
+                binding.result3.text =
+                    getString(R.string.name_lean_placeholders, nameThree, resultString3)
+
+                binding.result3.visibility = View.VISIBLE
+
+            } else if (result3 == 18.5 || result3 < 25) {
+                binding.result3.text =
+                    getString(R.string.name_ideal_weight_placeholders, nameThree, resultString3)
+
+                binding.result3.visibility = View.VISIBLE
+
+            } else if (result3 > 25) {
+                binding.result3.text =
+                    getString(R.string.name_fat_placeholders, nameThree, resultString3)
+
+                binding.result3.visibility = View.VISIBLE
+            }
+
+
+            if (result4 < 18.5) {
+                binding.result4.text =
+                    getString(R.string.name_lean_placeholders, nameFour, resultString4)
+
+                binding.result4.visibility = View.VISIBLE
+
+            } else if (result4 == 18.5 || result4 < 25) {
+                binding.result4.text =
+                    getString(R.string.name_ideal_weight_placeholders, nameFour, resultString4)
+
+                binding.result4.visibility = View.VISIBLE
+
+            } else if (result4 > 25) {
+                binding.result4.text =
+                    getString(R.string.name_fat_placeholders, nameFour, resultString4)
+
+                binding.result4.visibility = View.VISIBLE
+            }
+
+
+            if (result5 < 18.5) {
+                binding.result5.text =
+                    getString(R.string.name_lean_placeholders, nameFive, resultString5)
+
+                binding.result5.visibility = View.VISIBLE
+
+            } else if (result5 == 18.5 || result5 < 25) {
+                binding.result5.text =
+                    getString(R.string.name_ideal_weight_placeholders, nameFive, resultString5)
+
+                binding.result5.visibility = View.VISIBLE
+
+            } else if (result5 > 25) {
+                binding.result5.text =
+                    getString(R.string.name_fat_placeholders, nameFive, resultString5)
+
+                binding.result5.visibility = View.VISIBLE
+            }
+
+        } else {
+
+            binding.result1.text = getString(R.string.incompleted)
+            binding.result1.visibility = View.VISIBLE
+            binding.result2.visibility = View.GONE
+            binding.result3.visibility = View.GONE
+            binding.result4.visibility = View.GONE
+            binding.result5.visibility = View.GONE
+        }
+
+    }
+
 }
