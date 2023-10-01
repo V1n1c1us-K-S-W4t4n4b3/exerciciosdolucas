@@ -31,7 +31,7 @@
     <string name="exc13">Exercicio 13 (Ex)</string>
     <string name="exc14">Exercicio 14 (Ex)</string>
 
-    <!-- texts of exerc 1 -->
+    <!-- exercise 1 texts -->
     <string name="somar">Soma</string>
     <string name="subitrair">Subitração</string>
     <string name="multiplicar">Multiplicação</string>
@@ -40,28 +40,28 @@
     <string name="primeiro_numb">Primeiro Numero</string>
     <string name="segundo_numb">Segundo Numero</string>
 
-    <!-- texts of exerc 2 -->
+    <!-- exercise 2 texts -->
     <string name="numbTabu">Numero da Tabuada</string>
     <string name="resultTabu">Resultado da Tabuada</string>
     <string name="title2">Tabuadas</string>
 
-    <!-- texts of exerc 3 -->
+    <!-- exercise 3 texts -->
     <string name="fahrenheit">Resultado em Fahrenheit</string>
     <string name="celsius">Digite graus Celsius</string>
     <string name="title3">Conversor de Graus Celsius em Fahrenheit</string>
 
-    <!-- texts of exerc 4 -->
+    <!-- exercise 4 texts -->
     <string name="Reais">Digite o Valor em Real</string>
     <string name="Dolar">Valor em Dolar</string>
     <string name="title4">Conversor da Moeda Real em Dolar</string>
     <string name="cotaçãoDoDolar">Digite a Cotação do Dolar Atual</string>
 
-    <!-- texts of exerc 5 -->
+    <!-- exercise 5 texts -->
     <string name="polegada">Digite o Valor em Polegadas</string>
     <string name="centimetro">Resultado em Centimetros</string>
     <string name="title5">Conversor de Polegada para Centimetros</string>
 
-    <!-- texts of exerc 6 -->
+    <!-- exercise 6 texts -->
     <string name="title6">Lista de Frutas</string>
     <string name="editfruta1">Digite o nome da 1º fruta</string>
     <string name="editfruta2">Digite o nome da 2º fruta</string>
@@ -71,13 +71,13 @@
     <string name="listaDeFrut">Sua Lista de Frutas</string>
     <string name="nPreenchido">Espaço não Preenchido ;-;</string>
 
-    <!-- texts of exerc 7 -->
+    <!-- exercise 7 texts -->
     <string name="title7">Invertendo Palavras</string>
     <string name="editQualquerCoisa">Digite qualquer coisa</string>
     <string name="textInvertido">Palavra Invertida</string>
     <string name="inverter">Inverter</string>
 
-    <!-- texts of exerc 8 -->
+    <!-- exercise 8 texts -->
     <string name="title8">Digite os numeros para descobri se é "IMPAR ou PAR"</string>
     <string name="digitNumber">Digite o numero para incluir na lista:</string>
     <string name="parNumb">Numeros Pares</string>
@@ -85,7 +85,7 @@
     <string name="numbList">Lista de numeros</string>
     <string name="oddOrEven">Impar ou par</string>
 
-    <!-- text of exerc 9 -->
+    <!-- exercise 9 texts -->
     <string name="title9">Maior, Menor e Média</string>
     <string name="digitFirstNumb">Digite o Primeiro Numero</string>
     <string name="digitSecondNumb">Digite o Segundo Numero</string>
@@ -101,20 +101,20 @@
     <string name="mediaresult">Resultado da média : %1$s</string>
 
 
-    <!-- text of exerc 10 -->
+    <!-- exercise 10 texts -->
     <string name="title10">Lista de Convidados</string>
-    <string name="digitName">Digite o Nome do Convidado</string>
+    <string name="digitNameGuest">Digite o Nome do Convidado</string>
     <string name="bigName">Convidado de Maior Nome</string>
     <string name="missName">Digite Todos Os Nomes!</string>
     <string name="bigNameResult">Convidado de Maior Nome é: %1$s</string>
 
-    <!-- text of exerc 11 -->
+    <!-- exercise 11 texts -->
     <string name="title11">Palavras com o Impar em Maiusculo</string>
     <string name="digitWord">Digite Qualquer Palavra</string>
     <string name="resultNameText">Resultado da Palavra</string>
     <string name="missWord">Por Favor, Escreva Alguma Palavra</string>
 
-    <!-- text of exerc 12 -->
+    <!-- exercise 12 texts -->
     <string name="title12">Mais novo, mais velho e idade Média</string>
     <string name="digitAge">Digite a Idade</string>
     <string name="textOldPerson">Mais Velho</string>
@@ -132,4 +132,12 @@
     <string name="name_age_old_placeholders">Mais Velho\nNome : %1$s \nIdade : %2$s</string>
     <string name="name_age_new_placeholders">Mais Novo\nNome : %1$s \nIdade : %2$s</string>
     <string name="average_age_placeholders">Média de Idade : %1$s </string>
+
+    <!-- exercise 13 texts -->
+    <string name="title13">Calcula de IMC</string>
+    <string name="digitHeight">Digite a altura</string>
+    <string name="digitWeight">Digite o peso</string>
+    <string name="digitName">Digite o nome</string>
+    <string name="fat">Gordinho</string>
+
 </resources>
