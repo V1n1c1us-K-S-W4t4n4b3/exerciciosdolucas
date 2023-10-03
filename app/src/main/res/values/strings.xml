@@ -9,7 +9,7 @@
     <string name="punishment">POMANO, ME AJUDA AÍ NÉ VÉI!</string>
 
     <!-- Text of Buttons -->
-    <string name="calcular">Calcular</string>
+    <string name="calculate">Calcular</string>
     <string name="Back">Voltar</string>
     <string name="Concluir">Concluir</string>
     <string name="cleanButton">Limpar</string>
@@ -145,9 +145,15 @@
 
 
     <!-- exercise 14 texts -->
-<string name="title_14">CSM Reajustes</string>
-    <string name="digit_valor_salario">Digite o valor do salário</string>
+    <string name="title_14">CSM Reajustes</string>
+    <string name="digit_valor_wage">Digite o valor do salário</string>
     <string name="miss_valor">Por favor, informe o salário.</string>
+    <string name="result_wage">resultado da alteração salarial</string>
+    <string name="result_wage_placeholder">Salário antes do reajuste : %1$s\nPercentual de aumento aplicado : %2$s\nValor do aumento : %3$s\nSalario atualizado : %4$s</string>
+    <string name="twent_percent">20%</string>
+    <string name="fifteen_percent">15%</string>
+    <string name="ten_percent">10%</string>
+    <string name="five_percent">5%</string>
 
 
 </resources>

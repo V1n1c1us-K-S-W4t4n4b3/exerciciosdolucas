@@ -15,7 +15,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/butonExcs"
-        android:text="@string/calcular"
+        android:text="@string/calculate"
         android:textAlignment="center"
         android:textSize="16sp"
         android:textStyle="bold"
