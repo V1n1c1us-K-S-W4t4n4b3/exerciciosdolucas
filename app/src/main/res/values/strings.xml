@@ -144,4 +144,10 @@
     <string name="name_ideal_weight_placeholders">%1$s está no peso ideal, IMC: %2$s</string>
 
 
+    <!-- exercise 14 texts -->
+<string name="title_14">CSM Reajustes</string>
+    <string name="digit_valor_salario">Digite o valor do salário</string>
+    <string name="miss_valor">Por favor, informe o salário.</string>
+
+
 </resources>
